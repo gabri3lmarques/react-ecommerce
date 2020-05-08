@@ -1,6 +1,5 @@
 import React from "react";
 import "./collection-item.style.scss";
-import { render } from "@testing-library/react";
 
 const CollectionItem = ({ id, name, price, imageUrl }) => {
   return (
